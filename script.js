@@ -58,7 +58,7 @@ addNewItem = () => {
 	let li = document.createElement('li');
 	li.appendChild(document.createTextNode(boxtext.value));
 	ul.appendChild(li);
-	// boxtext.value='';
+	boxtext.value='';
 	
 	let span = document.createElement('span');
 	let buttonText = span.appendChild(document.createElement('button'));
